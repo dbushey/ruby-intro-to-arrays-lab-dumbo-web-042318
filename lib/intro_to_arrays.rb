@@ -13,3 +13,7 @@ end
 def third_element(array)
   array[2]
 end
+
+def third_element(array)
+  array[array.length - 1]
+end
